@@ -1,12 +1,49 @@
 .who-we-are-container {
-  height: 70vh;
+  height: 95vh;
   width: 100vw;
-  background-color: red;
+  background-color: black;
+  background-image: url("src/assets/img/background1.jpg");
+  background-size: cover;
+  color: white;
+  padding: 8% 40px;
+}
+
+.who-we-are-backing {
+  font-family:sans-serif;
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0, .5);
+  width: 80%;
+  max-width: 550px;
+  margin: auto;
+  padding-top: 40px;
+  padding-bottom: 58px;
 }
 
 .who-we-are-header {
+  display: flex;
+  justify-content: center;
+  width: 100%;
   font-size: 3rem;
-  font
+  font-color: black;
   margin: auto;
   color: white;
+}
+
+
+.card-container {
+  max-width: 80%;
+  margin: auto;
+  justify-content: space-between;
+  display: flex;
+}
+
+.who-we-are-body {
+  font-size: 1.2rem;
+  margin-top: 40px;
+  text-align: center;
+  width: 70%;
+  margin-top: 25px;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 1.5;
 }

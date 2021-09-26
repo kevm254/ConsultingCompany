@@ -1,0 +1,8 @@
+<div class="card-container">
+<div
+  *ngFor="let card of cards"
+  class="card">
+    <div class="card-header">{{ card?.headerText }}</div>
+    <div class="card-body">{{ card?.bodyText }}</div>
+</div>
+</div>

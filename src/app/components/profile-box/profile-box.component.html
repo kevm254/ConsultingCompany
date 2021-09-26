@@ -1,0 +1,12 @@
+  <div class="profile-box">
+    <div class="profile-pic"></div>
+    <div class="profile-description">
+      <div class="description-header">{{ header }}</div>
+
+      <div class="description-text">
+        <div class="text-item" *ngFor="let item of body">
+          {{ item }}
+        </div>
+      </div>
+    </div>
+  </div>

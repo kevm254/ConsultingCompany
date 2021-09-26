@@ -1,0 +1,10 @@
+.card-container {
+  display: flex;
+  width: 100%;
+  border: 1px solid blue;
+}
+
+.card {
+  text-align: center;
+  flex: 1 1 0px;
+}

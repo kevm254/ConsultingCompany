@@ -1,0 +1,33 @@
+
+.profile-box {
+  border-radius: 5px;
+  border: 1px solid gray;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  height: 299px;
+  width: 250px;
+}
+
+.profile-pic {
+  background-color: blue;
+  margin: 5px 5px;
+  height: 125px;
+  width: 125px;
+  border-radius: 100px;
+}
+
+.profile-description {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.description-header {
+  margin-bottom: 2px;
+  font-size: 1.2rem;
+  font-weight:700;
+}
+
+.description-text {}

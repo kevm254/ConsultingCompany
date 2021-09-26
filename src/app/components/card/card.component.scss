@@ -1,7 +1,14 @@
+body {
+  font-family: sans-serif;
+}
+
 .card-container {
-  width: 25%;
+  overflow: hidden;
+  flex: 1 1 0px;
+  margin: 10px 10px;
   border: 5px solid black;
   min-height: 200px;
+  box-shadow: 10px 10px;
 }
 
 .card-header {
